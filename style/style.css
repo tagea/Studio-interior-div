@@ -424,7 +424,7 @@
 }
 .footer-data__contact,
 .footer-data__useful,
-.footer-data__form{
+.footer-data__subscr{
    float: left; 
 }
 .footer-data__contact{
@@ -435,7 +435,7 @@
     margin: 0 15px;
     width: 480px;
 }
-.footer-data__form{
+.footer-data__subscr{
     margin-left: 15px;
     width: 370px;
 }
@@ -471,6 +471,9 @@
 .footer-data__link:hover{
     text-decoration: underline;
 }
+.footer-data__form{
+    
+}
 .footer-data__email{
     color:  #6c6c6c;
     font-size: 0.875em;
@@ -479,10 +482,24 @@
     background-color:  #ffffff;
     width: 330px;
     margin-top: 26px;
-    padding: 17px 19px;
+    padding: 14px 19px;
+    outline: none;
 }
 .footer-data__email:focus{
     border: 1px solid #6c6c6c;
+}
+.footer-data__submit{
+    width: 21px;
+    height: 17px;
+    background-image: url(../img/airplan.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -32px;
+    right: 14px;
+    float: right;
+    cursor: pointer;
+    border: none;
 }
 .bottom-info{
     padding-top: 77px;
