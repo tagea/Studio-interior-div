@@ -491,6 +491,7 @@
 .footer-data__submit{
     width: 21px;
     height: 17px;
+    background: none;
     background-image: url(../img/airplan.png);
     background-repeat: no-repeat;
     background-size: contain;
